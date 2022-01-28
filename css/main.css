@@ -238,7 +238,7 @@ nav ul li a {
 .section-6 .inner-caption p {
   margin: 10px 0px;
   line-height: 2.5rem;
-  font-size: 1.6rem;
+  font-size: 1rem;
 }
 .section-6 .inner-caption h5:hover {
   color: var(--main-color);
@@ -320,7 +320,17 @@ nav ul li a {
 padding: 10px;
     background-color: var(--main-color);
 }
-
+.section-7 .btn-view{
+  font-size: 1.5rem;
+}
+.section-7 .btn-view:hover{
+  cursor: pointer;
+  background-color: black;
+  color:white;
+  transition-property: all;
+  transition-duration: 1s;
+  
+}
 /* section 7 end */
 /* section 8 start */
 
@@ -427,6 +437,21 @@ section 9 start */
       background-color: black;
       transition-property: all;
       transition-duration: 1s;
+  }
+  .btn-view{
+    width: 200px;
+    background-color: var(--main-color);
+    padding: 10px;
+    margin: auto;
+    font-size: 1.5rem;
+  }
+  .section-10 .btn-view:hover{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    transition-property: all;
+    transition-duration: 1s;
+    
   }
 
 /* section 10 end */
